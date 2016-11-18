@@ -7,7 +7,7 @@ public class ejercicio1 {
 		int longitudMax, contador =1;
 		
 		System.out.print("Escribe una frase (max 80 caracteres):");
-		frase=teclado.next();
+		frase=teclado.nextLine();
 		longitudMax = frase.length();
 		
 		if (longitudMax <= 80 ){
